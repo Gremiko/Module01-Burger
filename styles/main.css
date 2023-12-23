@@ -22,6 +22,13 @@ header {
   padding-bottom: 25px;
 }
 
+.header-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 68.5%;
+}
+
 .header-logo {
   display: block;
   background-image: url(../images/Logo.svg);
@@ -40,8 +47,6 @@ header {
   list-style-type: none;
   padding-left: 0;
   gap: 46px;
-  position: relative;
-  right: 49px;
 }
 
 .header-nav a {
@@ -204,12 +209,18 @@ header {
 
 .banner-link {
   font-size: 14px;
-  padding: 20px 27px;
+  padding: 18px 25px;
   text-transform: uppercase;
   text-decoration: none;
   color: #1e2f40;
   background-color: #fbb731;
   border-radius: 5px;
+  border: 1px solid #fbb731;
+}
+
+.banner-link:hover {
+  background-color: transparent;
+  color: #fbb731;
 }
 
 .menu-header {
@@ -310,10 +321,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 152px;
-  height: 38px;
+  width: 150px;
+  height: 36px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid #fbb731;
   background: #fbb731;
   text-transform: uppercase;
   margin: 0 auto;
@@ -321,6 +332,7 @@ header {
 
 .menu-grid-btn:hover {
   cursor: pointer;
+  background-color: #f37335;
 }
 
 .footer {
@@ -353,33 +365,46 @@ header {
   margin-top: 0;
 }
 
-.footer-item li {
+.footer-list li {
   margin-bottom: 9px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   color: #faf9f9;
   font-weight: 700;
   line-height: 24px;
+  list-style-type: none;
 }
-.footer-item a {
+.footer-list a {
   color: #dedede;
   text-decoration: none;
   font-weight: 400;
 }
+.footer-list a:hover {
+  color: #fbb731;
+}
+
 .footer-item span {
   color: #dedede;
   display: block;
   font-weight: 400;
   margin-bottom: 2px;
 }
-.footer-tel ul {
+.footer-list-tel {
+  margin-top: 0;
+}
+
+.footer-list-tel li {
+  margin-bottom: 12px;
+}
+
+.footer-list-tel a {
   font-size: 20px;
   font-weight: 900;
   color: #fbb731;
-  margin-top: 0;
 }
-.footer-tel li {
-  margin-bottom: 12px;
+
+.footer-list-tel a:hover {
+  color: #ffffff;
 }
 
 .footer-list {
