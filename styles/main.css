@@ -261,6 +261,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-bottom: 100px;
+  padding-left: 0;
 }
 .menu-grid-item {
   list-style-type: none;
