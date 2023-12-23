@@ -412,3 +412,16 @@ header {
   padding-left: 0;
   list-style-type: none;
 }
+
+.footer-list a::after {
+  content: "";
+  width: 22%;
+  height: 3px;
+  border-radius: 1.5px;
+  background: transparent;
+  display: block;
+}
+
+.footer-list a.active::after {
+  background: #ffc725;
+}
