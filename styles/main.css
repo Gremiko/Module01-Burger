@@ -217,7 +217,7 @@ header {
   background-color: #fbb731;
   border-radius: 5px;
   border: 1px solid #fbb731;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .banner-link:hover {
@@ -510,6 +510,10 @@ header {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
+  transition: 1s;
+}
+.content-link:hover {
+  background-color: #f37335;
 }
 .visual {
   flex-grow: 1;
@@ -577,6 +581,14 @@ header {
   line-height: 24px;
   margin-bottom: 0;
 }
+.promo-link {
+  transition: 1s;
+}
+
+.promo-link:hover {
+  background-color: #f37335;
+}
+
 .promo-left .promo-description {
   max-width: 392px;
 }
