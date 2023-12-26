@@ -333,7 +333,7 @@ header {
   background: #fbb731;
   text-transform: uppercase;
   margin: 0 auto;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .menu-grid-btn:hover {
