@@ -1,4 +1,9 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
+  overflow-x: hidden;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -476,11 +481,19 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.wrapper-promo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 .content {
   color: #faf9f9;
   flex: 0 0 580px;
   padding-top: 170px;
   padding-bottom: 170px;
+  z-index: 2;
 }
 .content-title {
   font-size: 120px;
